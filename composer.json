@@ -1,0 +1,54 @@
+{
+    "name": "hazbin/rank-badges",
+    "description": "Replaces the default cirle badges with rank-styled badges.",
+    "keywords": [
+        "flarum",
+        "flarum-extension"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.2"
+    },
+    "support": {
+        "source": "https://github.com/hazbinfoundation/rank-badges",
+        "isses": "https://github.com/hazbinfoundation/rank-badges/issues"
+    },
+    "authors": [
+        {
+            "name": "Hazbin Foundation",
+            "email": "contact@hazbin.org",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://www.hazbin.org",
+    "extra": {
+        "flarum-extension": {
+            "title": "Rank Badges",
+            "category": "feauture",
+            "icon": {
+                "name": "fas fa-id-badge",
+                "color": "#fff",
+                "backgroundColor": "#DE6546"
+            }
+        },
+        "flarum-cli": {
+            "modules": {
+                "admin": false,
+                "forum": true,
+                "js": true,
+                "jsCommon": false,
+                "css": true,
+                "locale": false,
+                "gitConf": true,
+                "githubActions": true,
+                "prettier": true,
+                "typescript": false,
+                "bundlewatch": false,
+                "backendTesting": false,
+                "editorConfig": true,
+                "styleci": true
+            }
+        }
+    }
+}

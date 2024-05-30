@@ -1,6 +1,6 @@
 {
     "name": "hazbin/rank-badges",
-    "description": "Replaces the default cirle badges with rank-styled badges.",
+    "description": "Replaces the default circle badges with rank-style badges.",
     "keywords": [
         "flarum",
         "flarum-extension"
@@ -11,15 +11,21 @@
         "flarum/core": "^1.2"
     },
     "support": {
-        "source": "https://github.com/hazbinfoundation/rank-badges",
-        "isses": "https://github.com/hazbinfoundation/rank-badges/issues"
+        "issues": "https://github.com/hazbinfoundation/rank-badges/issues",
+        "source": "https://github.com/hazbinfoundation/rank-badges"
     },
     "authors": [
         {
             "name": "Hazbin Foundation",
             "email": "contact@hazbin.org",
             "role": "Developer"
+        },
+        {
+            "name": "Jake McCarroll",
+            "email": "jake.mccarroll@hazbin.net",
+            "role": "Developer"
         }
+
     ],
     "homepage": "https://www.hazbin.org",
     "extra": {

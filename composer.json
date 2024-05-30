@@ -3,7 +3,8 @@
     "description": "Replaces the default circle badges with rank-style badges.",
     "keywords": [
         "flarum",
-        "flarum-extension"
+        "flarum-extension",
+        "hazbin"
     ],
     "type": "flarum-extension",
     "license": "MIT",
